@@ -50,6 +50,7 @@ void sort(int values[], int n)
     // Selection sort
     for (int i = 0; i < n-1; i++){
         int min = values[i];
+        index = i;
         for (int j = i+1; j < n; j++){
             if (values[j] < min){
                 min = values[j];
